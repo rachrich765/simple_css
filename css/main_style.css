@@ -16,8 +16,9 @@ h2 {
 	font-size: 20px;
 }
 
-a {
-	color: 	#800080;
+a.skip-main:focus, a.skip-main:active{
+	color: #fff;
+    background-color:#000;
 }
 
 nav a {
@@ -26,15 +27,14 @@ nav a {
 nav a.current {
 	color: 	#FF7F50;
 	background-color: #731873;
+	font-weight: bold;
 
 }
 
 img {
-  width:  250px;
-  height: 250px;
+  width:  350px;
+  height: 350px;
 }
 
-.skip{
-	position: relative;
-}
+
 
